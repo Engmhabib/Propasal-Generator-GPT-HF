@@ -229,7 +229,6 @@ if __name__ == '__main__':
 Contains the core logic for generating the proposal text and image using OpenAI's and Hugging Face's APIs.
 
 ```python
-# tasks.py
 import os
 import openai
 from PIL import Image
@@ -252,7 +251,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Load and validate environment variables
+# Load environment variables
 required_env_vars = {
     'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY'),
     'HUGGINGFACE_API_TOKEN': os.environ.get('HUGGINGFACE_API_TOKEN'),
