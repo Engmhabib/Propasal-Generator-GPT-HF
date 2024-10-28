@@ -1,0 +1,31 @@
+<!-- templates/proposal.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Proposal</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .prose p {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Your Proposal</h1>
+        
+        <div class="bg-white rounded-lg shadow-lg p-6 max-w-2xl mx-auto">
+            <div class="mb-6">
+                <img src="{{ image_url }}" alt="Proposal Image" class="w-full h-auto rounded">
+            </div>
+            <div class="prose max-w-none">
+                {{ proposal|safe }}
+            </div>
+            <div class="mt-6 text-center">
+                <a href="{{ url_for('index') }}" class="text-blue-600 hover:underline">Create another proposal</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
