@@ -1,6 +1,3 @@
-Certainly! Below is the revised `README.md` file tailored to integrate Hugging Face's Inference API for image generation and OpenAI's `gpt-3.5-turbo` for text generation. This version ensures that students without access to GPT-4 or DALL·E can still effectively use the application by leveraging more accessible APIs.
-
----
 
 # Proposal-Generator-GPT-HF
 
@@ -659,7 +656,3 @@ To use the Proposal Generator Application, you and your students will need to ge
    - The console should display "Image generated and saved as test_image.png."
 
    If the script fails, double-check the token and ensure it has the correct permissions.
-
----
-
-**Happy Coding!** If you have any further questions or need additional assistance, feel free to ask.
