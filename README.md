@@ -48,7 +48,7 @@ This application serves as an educational project to demonstrate how to integrat
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/proposal-generator.git
+   git clone https://github.com/Engmhabib/Propasal-Generator-GPT-HF.git
    cd proposal-generator
    ```
 
